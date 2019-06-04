@@ -1,0 +1,239 @@
+-*- mode: org -*-
+
+* Resultados Execução Serial Random
+
+** 10.000 Inteiros
+*** Tempo médio 0.0003969
+
+
+** 100.000 Inteiros
+*** Tempo médio 0.003585
+    
+
+** 1.000.000 Inteiros
+*** Tempo médio 0.157828
+
+
+** 10.000.000 Inteiros
+*** Tempo médio 2.26162
+
+
+* Resultados Execução Serial Inversa
+
+
+** 10.000 Inteiros
+*** Tempo médio 0.0002459
+    
+
+** 100.000 Inteiros
+*** Tempo médio 0.0032409
+    
+
+** 1.000.000 Inteiros
+*** Tempo médio 0.03418
+
+
+** 10.000.000 Inteiros
+*** Tempo médio 0.314927
+
+
+* Resultados Execução Paralela Random 
+
+** 10.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.000979748 
+*** 4 Threads - Tempo médio 0.000337674
+*** 8 Threads - Tempo médio 0.000374396
+*** 16 Threads - Tempo médio 0.000629315 
+*** 32 Threads - Tempo médio 0.00136845
+*** 64 Threads - Tempo médio 0.00225381
+*** 128 Threads - Tempo médio 0.00400966
+    
+** 100.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.00304282
+*** 4 Threads - Tempo médio 0.00232517
+*** 8 Threads - Tempo médio 0.00442855
+*** 16 Threads - Tempo médio 0.00386329
+*** 32 Threads - Tempo médio 0.00407322
+*** 64 Threads - Tempo médio 0.00466986
+*** 128 Threads - Tempo médio 0.00763041
+
+** 1.000.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.105916
+*** 4 Threads - Tempo médio 0.109693
+*** 8 Threads - Tempo médio 0.0832931
+*** 16 Threads - Tempo médio 0.0870843
+*** 32 Threads - Tempo médio 0.0803605
+*** 64 Threads - Tempo médio 0.0797436
+*** 128 Threads - Tempo médio 0.0800263
+
+** 10.000.000 Inteiros
+
+*** 2 Threads - Tempo médio 1.68322 
+*** 4 Threads - Tempo médio 1.54582
+*** 8 Threads - Tempo médio 1.52636
+*** 16 Threads - Tempo médio 1.52665
+*** 32 Threads - Tempo médio 1.50517
+*** 64 Threads - Tempo médio 1.45658
+*** 128 Threads - Tempo médio 1.40277
+*** 256 Threads - Tempo médio 1.38402
+*** 512 Threads - Tempo médio 1.33204
+*** 1024 Threads - Tempo médio 1.29833
+*** 2048 Threads - Tempo médio 1.36189
+
+
+* Resultados Execução Paralela Inversa 
+
+
+** 10.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.000226299
+*** 4 Threads - Tempo médio 0.000280118
+*** 8 Threads - Tempo médio 0.000578102
+*** 16 Threads - Tempo médio 0.00047348
+*** 32 Threads - Tempo médio 0.000780068
+*** 64 Threads - Tempo médio 0.00256494
+*** 128 Threads - Tempo médio 0.00340071
+    
+
+** 100.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.00407513
+*** 4 Threads - Tempo médio 0.00401855
+*** 8 Threads - Tempo médio 0.00288539
+*** 16 Threads - Tempo médio 0.00342148
+*** 32 Threads - Tempo médio 0.00364228
+*** 64 Threads - Tempo médio 0.00510353
+*** 128 Threads - Tempo médio 0.00662513
+
+
+** 1.000.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.023367
+*** 4 Threads - Tempo médio 0.0252511
+*** 8 Threads - Tempo médio 0.0298664
+*** 16 Threads -  Tempo médio 0.0275129
+*** 32 Threads - Tempo médio 0.031698
+*** 64 Threads - Tempo médio 0.0316726
+*** 128 Threads - Tempo médio 0.0309517
+   
+
+** 10.000.000 Inteiros
+
+*** 2 Threads - Tempo médio 0.27633
+*** 4 Threads - Tempo médio 0.263342
+*** 8 Threads - Tempo médio 0.246083
+*** 16 Threads - Tempo médio 0.229895  
+*** 32 Threads - Tempo médio 0.239692
+*** 64 Threads - Tempo médio 0.231531
+*** 128 Threads - Tempo médio 0.213705
+*** 256 Threads - Tempo médio 0.221459
+*** 512 Threads - Tempo médio 0.226786
+*** 1024 Threads - Tempo médio 0.287156
+*** 2048 Threads - Tempo médio 0.285621
+
+
+* Speed-up Random
+
+** 10.000 Inteiros
+
+*** 2  Threads -  0.40510416964362267
+*** 4  Threads -  1.1753940190834948
+*** 8  Threads -  1.060107479780767
+*** 16  Threads -  0.6306857456122927
+*** 32  Threads -  0.29003617231173956
+*** 64  Threads -  0.17610180095039066
+*** 128  Threads -  0.09898594893332602
+
+
+** 100.000 Inteiros
+
+*** 2  Threads -  1.1781833956658627
+*** 4  Threads -  1.5418227484441998
+*** 8  Threads -  0.809520046064739
+*** 16  Threads -  0.9279655423227353
+*** 32  Threads -  0.8801390546054474
+*** 64  Threads -  0.76768896712107
+*** 128  Threads -  0.4698305857745521
+
+
+** 1.000.000 Inteiros
+
+*** 2  Threads -  1.490124249405189
+*** 4  Threads -  1.4388156035480841
+*** 8  Threads -  1.8948508339826469
+*** 16  Threads -  1.8123588293182582
+*** 32  Threads -  1.9639997262336595
+*** 64  Threads -  1.9791933145732072
+*** 128  Threads -  1.9722016387112737
+    
+
+** 10.000.000 Inteiros
+
+*** 2  Threads -  1.3436270956856502
+*** 4  Threads -  1.4630552069451814
+*** 8  Threads -  1.481708116040777
+*** 16  Threads -  1.4814266531294011
+*** 32  Threads -  1.5025678162599576
+*** 64  Threads -  1.5526919221738595
+*** 128  Threads -  1.6122528996200376
+*** 256  Threads -  1.6340948830219217
+*** 512  Threads -  1.6978619260682866
+*** 1024  Threads -  1.741945422196206
+*** 2048  Threads -  1.6606480699615975
+
+
+* Speed-up Inverso
+
+** 10.000 Inteiros
+
+*** 2  Threads -  1.0866154954286145
+*** 4  Threads -  0.8778443370293948
+*** 8  Threads -  0.4253574628698742
+*** 16  Threads -  0.5193461181042495
+*** 32  Threads -  0.31522892876005687
+*** 64  Threads -  0.09586968895958581
+*** 128  Threads -  0.0723084297102664
+    
+
+** 100.000 Inteiros
+
+*** 2  Threads -  0.7952875123002212
+*** 4  Threads -  0.8064849261549564
+*** 8  Threads -  1.1232103805724705
+*** 16  Threads -  0.947221670154436
+*** 32  Threads -  0.8897997957323436
+*** 64  Threads -  0.6350310471379613
+*** 128  Threads -  0.4891828537704166
+
+
+** 1.000.000 Inteiros
+
+*** 2  Threads -  1.4627466084649294
+*** 4  Threads -  1.3536043974321912
+*** 8  Threads -  1.1444298609809016
+*** 16  Threads -  1.2423263269230072
+*** 32  Threads -  1.0783014701242983
+*** 64  Threads -  1.0791662193820526
+*** 128  Threads -  1.1043012177037126
+
+
+** 10.000.000 Inteiros
+
+*** 2  Threads -  1.1396771975536495
+*** 4  Threads -  1.1958859581836547
+*** 8  Threads -  1.279759268214383
+*** 16  Threads -  1.369873202983971
+*** 32  Threads -  1.313881981876742
+*** 64  Threads -  1.3601936673706763
+*** 128  Threads -  1.4736529327811703
+*** 256  Threads -  1.4220555497857392
+*** 512  Threads -  1.3886527387052112
+*** 1024  Threads -  1.0967104988229395
+*** 2048  Threads -  1.1026045003693705
+
+
+
+
