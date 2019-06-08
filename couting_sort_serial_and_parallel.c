@@ -17,6 +17,7 @@ int main(int argc, char *argv[]) {
   unsigned int *A, *B, *C;
   short random = 0;
   
+  srand(time(NULL));
   for (int i = NUM_THREADS; i <= 256; i*=2) {
     double mean_serial_time = 0.0;
     double mean_parallel_time = 0.0;
@@ -31,7 +32,6 @@ int main(int argc, char *argv[]) {
     assert (A != NULL ||
 	    B != NULL ||
 	    C != NULL);
-    srand(time(NULL));
 
     printf("Número de Threads - %d \n", NUM_THREADS);
     printf("Número de Repetições - %d \n", NUM_REPETITIONS); 
