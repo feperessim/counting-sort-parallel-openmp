@@ -19,8 +19,8 @@ int main(int argc, char *argv[]) {
   B = (unsigned int *) calloc(MAX_INTEGERS_TO_SORT, sizeof(unsigned  int)); 
   C = (unsigned int *) calloc(MAX_INTEGER_RANGE + 1, sizeof(unsigned int));
 
-  assert (A != NULL ||
-	  B != NULL ||
+  assert (A != NULL &&
+	  B != NULL &&
 	  C != NULL);
   srand(time(NULL));
   
