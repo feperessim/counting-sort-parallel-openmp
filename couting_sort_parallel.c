@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
     }
     else {
       for (int i = MAX_INTEGERS_TO_SORT-1; i >= 0; i--) {
-	A[i] = i;
+	A[i] = MAX_INTEGERS_TO_SORT - i;
       }
     }
     
