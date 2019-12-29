@@ -1,2 +1,4 @@
-*.py linguist-detectable=false`
-*.org linguist-detectable=false`
+*.c linguist-detectable=true
+*.py linguist-detectable=false
+*.org linguist-detectable=true
+
