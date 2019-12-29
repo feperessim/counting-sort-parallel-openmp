@@ -1,4 +1,1 @@
-*.c linguist-detectable=true
-*.py linguist-detectable=false
-*.org linguist-detectable=true
-
+*.* linguist-language=C
